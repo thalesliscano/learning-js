@@ -34,11 +34,16 @@ button {
   margin: auto 0 auto 0;
 }
 
-.container .equipe {
+.equipe {
   border-radius: 50%;
   max-width: 150px;
   height: 100px;
 }
 .container-botao {
   margin: 0 0 0 40px;
+}
+#trofeu {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
 }
