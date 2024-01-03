@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  background-color: blueviolet;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+#pontuacao {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+}
+#pontuacao .container-golfinho {
+  display: flex;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  column-gap: 20px;
+}
+.container .input-pontuacao {
+  margin: auto 0 auto 0;
+}
+
+.container .equipe {
+  border-radius: 50%;
+  max-width: 150px;
+  height: 100px;
+}
+.container-botao {
+  margin: 0 0 0 40px;
+}
